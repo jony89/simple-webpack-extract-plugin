@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var babel = require('gulp-babel');
-var webpack = require('gulp-webpack');
+var webpack = require('webpack-stream');
 
 var SRC_SCRIPTS = 'src/**/*.js';
 
